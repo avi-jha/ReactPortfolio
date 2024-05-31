@@ -1,0 +1,352 @@
+body,
+html {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #777;
+  font-weight: 400;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  font-weight: 800;
+  font-size: 36px;
+  color: #333;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+h4 {
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+p {
+  font-size: 15px;
+}
+
+p.intro {
+  margin: 12px 0 0;
+  line-height: 24px;
+}
+
+a {
+  color: #608dfd;
+  font-weight: 400;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #608dfd;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+ul,
+ol {
+  padding: 0;
+  webkit-padding: 0;
+  moz-padding: 0;
+}
+
+hr {
+  height: 2px;
+  width: 70px;
+  text-align: center;
+  position: relative;
+  background: #1e7a46;
+  margin-bottom: 20px;
+  border: 0;
+}
+
+/* fade in */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(30px);
+  visibility: hidden;
+  transition: opacity 0.9s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+#menubar {
+  padding: 15px;
+  transition: all 0.8s; /* applies to all animations */
+}
+
+#menubar.navbar-default {
+  background-color: #fff;
+  border-color: rgba(231, 231, 231, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+#menubar a.navbar-brand {
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+/* adding underline animation */
+
+#menubar.navbar-default .navbar-nav > li > a {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #555;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 8px 2px;
+  border-radius: 0;
+  margin: 9px 20px 0;
+}
+
+/* section 2 - main section */
+
+header .intro-text {
+  padding-top: 350px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.intro {
+  /* margin-top: 80px; */
+  display: table;
+  width: 100%;
+  padding: 0;
+  background-color: #e5e5e5;
+  background-size: contain;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background: url(../img/intro-bg.jpg) center center no-repeat;
+}
+
+.intro .overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.intro h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 55px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #e5e5e5;
+  margin-bottom: 40px;
+}
+
+.intro p {
+  font-family: "Raleway", sans-serif;
+  font-size: 82px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #e5e5e5;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  line-height: 30px;
+}
+
+.intro h1 span {
+  font-weight: 800;
+  color: #f9f9f9;
+}
+
+.intro-text a {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+#header_para {
+  margin-top: 120px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* About section */
+.ul {
+  list-style: none;
+}
+
+.h3 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #333;
+}
+
+#about {
+  padding: 100px 50px 100px 0;
+}
+
+#about h3 {
+  font-size: 22px;
+  margin: 0 0 20px;
+}
+
+#about h2 {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#about h2::before {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 0;
+}
+
+#about .about-text li {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 6px;
+  margin-right: 6px;
+}
+
+#about p {
+  margin-bottom: 50px;
+}
+
+#about img {
+  background-color: #fff;
+  width: 520px;
+  margin-top: 10px;
+  border-right: 0;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+/* ! this is not working */
+#about .about-text li:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #5ca9fb;
+  font-size: 11px;
+  font-weight: 300;
+  padding-right: 8px;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  padding: 100px 0;
+  background: #f6f6f6;
+}
+
+.testimonial {
+  position: relative;
+  padding: 20px;
+}
+
+.testimonial-image {
+  float: left;
+  margin-right: 15px;
+}
+
+.testimonial-image,
+.testimonial-image img {
+  display: block;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+}
+
+.testimonial-content {
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonial-content p {
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+.testimonial-meta {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #666;
+}
+
+/* !this is not working */
+#testimonials h2::before {
+  /* position: absolute;
+  content: "";
+  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  left: 1; */
+}
+
+/* Contact section */
+
+#contact {
+  padding: 100px 0 60px;
+  color: #585757;
+  background: #fff;
+}
+
+#contact .section-title {
+  margin-bottom: 40px;
+}
+
+#contact .section-title p {
+  font-size: 16px;
+}
+
+#contact h2 {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* ! this is not working */
+#contact .section-title h2::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 30px;
+  height: 4px;
+  width: 60px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+#contact h3 {
+  font-size: 24px;
+}

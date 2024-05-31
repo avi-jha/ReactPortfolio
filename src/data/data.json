@@ -1,0 +1,59 @@
+{
+  "Header": {
+    "header": "Hello!",
+    "name": "I'M Avinash Jha",
+    "header_para": "Self-Taught Developer. Tech Enthusiast. Avid Reader. "
+  },
+  "About": {
+    "paragraph": "I am a self-taught developer with a passion for creativity in web and mobile development. Over the years, I have successfully completed more than 10 projects, demonstrating my ability to deliver high-quality solutions. I thrive in collaborative environments and am always eager to learn and integrate new technologies.",
+    "Why": [
+      "2+ years experience",
+      "Full-stack expertise",
+      "Fintech experience",
+      "Server-side specialist"
+    ],
+    "Why2": [
+      "Team leader",
+      "Collaborative",
+      "Highly adaptable",
+      "Strong communicator"
+    ]
+  },
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Working with this freelancer was an absolute pleasure! His attention to detail and innovative approach in creating our website surpassed our expectations.\"",
+      "name": "Pradip Dighe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"From concept to execution, the team demonstrated unmatched professionalism and expertise.\"",
+      "name": "Tarun Bansal"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Exceptional talent and exceptional results! Our website's design and functionality perfectly reflect our brand identity, thanks to the skill and creativity of this freelancer.\"",
+      "name": "Pratyush Mishra"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"The website they developed for us has significantly enhanced our online presence and user engagement. Their commitment to delivering excellence is truly commendable.\"",
+      "name": "Manvee Bansal"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Their ability to understand our vision and translate it into a user-friendly website was impressive. Their expertise in web development shines through in every aspect of their work.\"",
+      "name": "Dev Angiras"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Our app launch was a huge success, all thanks to the expertise and dedication of this freelancer. They went above and beyond to ensure the app's functionality and user experience were top-notch.\"",
+      "name": "Yukta Bhagyashree"
+    }
+  ],
+  "Contact": {
+    "address": "Pune, India",
+    "phone": "+91 6387796299",
+    "email": "avinashbhaskarjha@gmail.com"
+  }
+}
